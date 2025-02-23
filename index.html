@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Simples</title>
+    <title>Pepino site muito foda</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -21,31 +21,29 @@
         main {
             margin: 20px;
         }
-        button {
+        .btn-link {
+            display: block;
+            margin: 10px auto;
             padding: 10px 20px;
             font-size: 18px;
             background: #008cba;
             color: white;
             border: none;
             cursor: pointer;
+            text-decoration: none;
+            width: 200px;
         }
-        button:hover {
+        .btn-link:hover {
             background: #005f73;
         }
     </style>
 </head>
 <body>
-    <header>Página Simples</header>
+    <header>Pepino site muito foda</header>
     <main>
         <h1>Bem-vindo!</h1>
-        <p>Esta é uma página web simples com um botão interativo.</p>
-        <button onclick="mostrarMensagem()">Clique aqui</button>
-        <p id="mensagem"></p>
+        <p>entre no nosso discord:</p>
+        <a href="https://discord.gg/Jna6Ru8eWD" class="btn-link" target="_blank">Discord</a>
     </main>
-    <script>
-        function mostrarMensagem() {
-            document.getElementById("mensagem").innerText = "Você clicou no botão!";
-        }
-    </script>
 </body>
 </html>
