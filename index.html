@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Simples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        main {
+            margin: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background: #008cba;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #005f73;
+        }
+    </style>
+</head>
+<body>
+    <header>Página Simples</header>
+    <main>
+        <h1>Bem-vindo!</h1>
+        <p>Esta é uma página web simples com um botão interativo.</p>
+        <button onclick="mostrarMensagem()">Clique aqui</button>
+        <p id="mensagem"></p>
+    </main>
+    <script>
+        function mostrarMensagem() {
+            document.getElementById("mensagem").innerText = "Você clicou no botão!";
+        }
+    </script>
+</body>
+</html>
